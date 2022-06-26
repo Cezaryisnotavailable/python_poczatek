@@ -1,0 +1,7 @@
+--------------------
+Zamówienie złożone przez: cz 2
+O łącznej wartości: 18 PLN
+Zamówione produkty:
+	Nazwa: Kosiarka | Kategoria: Narzędzia | Cena: 18 PLN/szt x 1
+
+--------------------

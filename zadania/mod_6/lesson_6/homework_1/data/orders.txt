@@ -1,0 +1,14 @@
+--------------------
+Zamówienie złożone przez: cz h
+O łącznej wartości: 82 PLN
+Zamówione produkty:
+	Nazwa: Chleb | Kategoria: Jedzonko | Cena: 15 PLN/szt x 2
+	Nazwa: Rower | Kategoria: Inne | Cena: 52 PLN/szt x 1
+
+----------------------------------------
+Zamówienie złożone przez: s d
+O łącznej wartości: 50 PLN
+Zamówione produkty:
+	Nazwa: Młotek | Kategoria: Narzędzia | Cena: 25 PLN/szt x 2
+
+--------------------
