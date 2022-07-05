@@ -7,26 +7,32 @@ from shop.store import AvailableProduct
 
 def save_store(available_products, file_name="store.csv"):
     with open(file_name, mode="w", newline="") as store_file:
-        csv_writer = csv.writer(store_file)
-        csv_writer.writerow(["name", "category", "unit_price", "identifier", "quantity"])
+        headers = ["name", "category", "unit_price", "identifier", "quantity"]
+        csv_writer = csv.DictWriter(store_file, fieldnames=headers)
+        csv_writer.writeheader()
         for available_product in available_products:
             product = available_product.product
             csv_writer.writerow(
-                [product.name, product.category.name, product.unit_price, product.identifier, available_product.quantity,]
+                {
+                    "name": product.name,
+                    "category": product.category.name,
+                    "unit_price": product.unit_price,
+                    "identifier": product.identifier,
+                    "quantity": available_product.quantity
+                }
             )
 
 
 def load_store(file_name="store.csv"):
     with open(file_name, newline="") as store_file:
-        csv_reader = csv.reader(store_file)
-        next(csv_reader)
+        csv_reader = csv.DictReader(store_file)
         return [
             AvailableProduct(
-                name=row[0],
-                category=ProductCategory[row[1]],
-                unit_price=float(row[2]),
-                identifier=int(row[3]),
-                quantity=int(row[4]),
+                name=row["name"],
+                category=ProductCategory[row["category"]],
+                unit_price=float(row["unit_price"]),
+                identifier=int(row["identifier"]),
+                quantity=int(row["quantity"]),
             )
             for row in csv_reader
         ]
