@@ -1,0 +1,19 @@
+{
+    "orders": [
+        {
+            "client_first_name": "c",
+            "client_last_name": "z",
+            "order_elements": [
+                {
+                    "product": {
+                        "name": "Chleb",
+                        "category": "FOOD",
+                        "unit_price": 3.5,
+                        "identifier": 96
+                    },
+                    "quantity": 1
+                }
+            ]
+        }
+    ]
+}

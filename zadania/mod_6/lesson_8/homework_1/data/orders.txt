@@ -1,0 +1,31 @@
+--------------------
+Zamówienie złożone przez: cz 2
+O łącznej wartości: 18 PLN
+Zamówione produkty:
+	Nazwa: Kosiarka | Kategoria: Narzędzia | Cena: 18 PLN/szt x 1
+
+----------------------------------------
+Zamówienie złożone przez: cz tw
+O łącznej wartości: 7.0 PLN
+Zamówione produkty:
+	Nazwa: Chleb | Kategoria: Jedzonko | Cena: 3.5 PLN/szt x 2
+
+----------------------------------------
+Zamówienie złożone przez: c z
+O łącznej wartości: 3.5 PLN
+Zamówione produkty:
+	Nazwa: Chleb | Kategoria: Jedzonko | Cena: 3.5 PLN/szt x 1
+
+----------------------------------------
+Zamówienie złożone przez: c z
+O łącznej wartości: 3.5 PLN
+Zamówione produkty:
+	Nazwa: Chleb | Kategoria: Jedzonko | Cena: 3.5 PLN/szt x 1
+
+----------------------------------------
+Zamówienie złożone przez: cz cz
+O łącznej wartości: 3.5 PLN
+Zamówione produkty:
+	Nazwa: Chleb | Kategoria: Jedzonko | Cena: 3.5 PLN/szt x 1
+
+--------------------
