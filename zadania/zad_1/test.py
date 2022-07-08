@@ -23,3 +23,20 @@ for _ in range(30):
 
     next_index += 3
     print(f"next_index to: {next_index}")
+
+
+class Human:
+
+
+    def do_something(self):
+        print("cos tam")
+        self.say_hello()
+
+
+    def say_hello(self):
+        print("hello")
+bool
+
+
+human = Human()
+human.do_something()
