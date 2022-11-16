@@ -47,7 +47,7 @@ class PyJazzParser:
         # print(time.parent)
         # print(time.previous_sibling)
         # print(time.next_sibling)
-        # print(self.parsed_page.find_all(is_a_and_has_rel_bookmark))
+        print(self.parsed_page.find_all(is_a_and_has_rel_bookmark))
 
     def parse_all_previews(self):
         publish_date_tags = self.parsed_page.find_all(is_publish_date_containing_tag)

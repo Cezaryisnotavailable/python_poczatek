@@ -3,7 +3,7 @@ from tickers import tickers_list
 from openpyxl import load_workbook
 
 lista = tickers_list()
-print(lista)
+# print(lista)
 
 location = ('C:\\Users\\48697\Documents\\final_tickers.xlsx')
 workbook = load_workbook(filename=location)
@@ -60,4 +60,4 @@ def run_example():
 
 if __name__ == "__main__":
 
-    print(run_example())
+    run_example()
